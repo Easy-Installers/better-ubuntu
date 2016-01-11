@@ -44,6 +44,7 @@ The following software is installed and updated
 * ipython
 * josm
 * keepass2
+* ninja-ide
 * numix-gtk-theme
 * numix-icon-theme-circle
 * numix-wallpaper-*
