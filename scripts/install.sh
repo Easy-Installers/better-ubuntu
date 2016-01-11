@@ -25,6 +25,7 @@ sudo apt-get install -y sublime-text-installer
 sudo apt-get install -y oracle-java8-installer
 
 wget https://raw.githubusercontent.com/penguinmenac3/better-ubuntu/master/scripts/update.sh
+chmod +x update.sh
 ./update.sh
 
 rm install.sh
