@@ -26,3 +26,5 @@ sudo apt-get install -y oracle-java8-installer
 
 wget https://raw.githubusercontent.com/penguinmenac3/better-ubuntu/master/scripts/update.sh
 ./update.sh
+
+rm install.sh
