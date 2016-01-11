@@ -49,6 +49,8 @@ The following software is installed and updated
 * numix-icon-theme-circle
 * numix-wallpaper-*
 * openssh-server
+* python-pip
+* python-pyglet
 * python-wxgtk2.8
 * qtcreator
 * sl
