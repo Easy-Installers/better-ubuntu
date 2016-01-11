@@ -20,6 +20,10 @@ wget http://global.download.synology.com/download/Tools/CloudStation/3.2-3497/Ub
 sudo dpkg -i synology-cloud-station-3497.x86_64.deb
 rm synology-cloud-station-3497.x86_64.deb
 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
+
 sudo apt-get update
 sudo apt-get install -y sublime-text-installer
 sudo apt-get install -y oracle-java8-installer
