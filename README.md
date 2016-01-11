@@ -9,7 +9,7 @@ This is a project that aims to provide some easy to install tools for ubuntu. Th
 Simply download the install.sh make it executable and run it.
 
 ```bash
-wget URL_TO/install.sh
+wget wget https://raw.githubusercontent.com/penguinmenac3/better-ubuntu/master/scripts/install.sh
 chmod +x install.sh
 ./install.sh
 ```
