@@ -16,13 +16,20 @@ sudo add-apt-repository -y ppa:numix/ppa
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
-wget http://global.download.synology.com/download/Tools/CloudStation/3.2-3497/Ubuntu/Installer/x86_64/synology-cloud-station-3497.x86_64.deb
-sudo dpkg -i synology-cloud-station-3497.x86_64.deb
-rm synology-cloud-station-3497.x86_64.deb
+wget https://raw.githubusercontent.com/penguinmenac3/better-ubuntu/master/scripts/installers/google-chrome.sh
+chmod +x google-chrome.sh
+./google-chrome.sh
+rm google-chrome.sh
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-rm google-chrome-stable_current_amd64.deb
+wget https://raw.githubusercontent.com/penguinmenac3/better-ubuntu/master/scripts/installers/ts3.sh
+chmod +x ts3.sh
+./ts3.sh
+rm ts3.sh
+
+wget https://raw.githubusercontent.com/penguinmenac3/better-ubuntu/master/scripts/installers/synology-cloud-station.sh
+chmod +x synology-cloud-station.sh
+./synology-cloud-station.sh
+rm synology-cloud-station.sh
 
 sudo apt-get update
 sudo apt-get install -y sublime-text-installer
