@@ -1,3 +1,5 @@
 #!/bin/bash
 
-python ui/software.py
+cd ui
+python install.py
+python packets.py
