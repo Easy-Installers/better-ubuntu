@@ -11,7 +11,7 @@ def installPackets():
         return
       installercalls = ""
       for packet in packets:
-      	installercalls += packet + ".sh; "
+      	installercalls += "../installers/" + packet + ".sh; "
       cmd = SUDO + "'apt-get install -y python-software-properties; " + installercalls + "'"
       os.system(cmd)
 
