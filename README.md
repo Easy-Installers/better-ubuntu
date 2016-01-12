@@ -54,6 +54,7 @@ The following software is installed and updated
 * python-pyglet
 * python-wxgtk2.8
 * qtcreator
+* qt4-designer
 * sl
 * spotify-client
 * steam
