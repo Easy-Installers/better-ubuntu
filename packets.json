@@ -1,6 +1,7 @@
 [{"checked": false, "packet":"chromium-browser"},
 {"checked": false, "packet":"cinnamon"},
 {"checked": true, "packet":"cmake"},
+{"checked": false, "packet":"fingerprint-gui"},
 {"checked": true, "packet":"gimp"},
 {"checked": true, "packet":"git"},
 {"checked": false, "packet":"gnome-tweak-tool"},
@@ -22,8 +23,10 @@
 {"checked": true, "packet":"sl"},
 {"checked": false, "packet":"spotify-client"},
 {"checked": false, "packet":"steam"},
+{"checked": true, "packet":"synaptic"},
 {"checked": true, "packet":"texmaker"},
 {"checked": true, "packet":"tmux"},
+{"checked": false, "packet":"ubuntu-gnome-desktop"},
 {"checked": false, "packet":"unity-tweak-tool"},
 {"checked": true, "packet":"virtualbox"},
 {"checked": true, "packet":"vlc"}]
