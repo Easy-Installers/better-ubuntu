@@ -20,6 +20,7 @@
 {"checked": true, "packet":"pyqt4-dev-tools"},
 {"checked": true, "packet":"qtcreator"},
 {"checked": true, "packet":"qt4-designer"},
+{"checked": true, "packet":"ubuntu-restricted-extras"},
 {"checked": true, "packet":"sl"},
 {"checked": false, "packet":"spotify-client"},
 {"checked": false, "packet":"steam"},
